@@ -1,0 +1,29 @@
+{
+    "name": "wish-cloud/open-taobao-sdk",
+    "description": "淘宝开放平台 PHP SDK",
+    "keywords": [
+        "open.taobao",
+        "淘宝开放平台"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wish",
+            "email": "wish.technology.ltd@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/wish-cloud/open-taobao-sdk/issues",
+        "source": "https://github.com/wish-cloud/open-taobao-sdk"
+    },
+    "require": {
+        "php": "^7.3|^8.0|^8.1",
+        "hanson/foundation-sdk": "^5.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WishCloud\\OpenTaobao\\": "src/"
+        }
+    }
+}
