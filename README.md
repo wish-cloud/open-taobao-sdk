@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-composer require wish-cloud/laravel-sitemap
+composer require wish-cloud/open-taobao-sdk
 ```
 
 ## Usage
